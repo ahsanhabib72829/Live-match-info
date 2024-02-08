@@ -1,7 +1,9 @@
+/* google font  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
 }
+
 *{
 margin: 0px;
 padding: 0px;
@@ -67,10 +69,11 @@ justify-content: center;
 align-items: center;
 width: 30%;
 height: 200px;
+margin-top:3px;
 }
 .body-btn{
     background-color: black;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     border-radius: 10px;
 }
@@ -131,4 +134,48 @@ width: 100%;
     gap: 5px;
 }
 /* body-card-end */
+/* teblet-btn start*/
+.teblet-btn{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    display: none;
+}
+.teblet-btn a{
+text-decoration: none;
+background-color: red;
+padding: 3px 20px;
+border-radius: 4px;
+color: white;
+font-weight: 700;
+font-size: 15px;
+}
+/* teblet-btn end*/
 
+/* footer start  */
+footer{
+    margin-top: 150px;
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    color: white;
+}
+footer h1{
+    text-align: center;
+    padding-top: 50px;
+}
+footer hr{
+    opacity :0.2;
+    margin-top: 40px;
+   
+}
+.footer-content{
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    margin-top:40px ;
+}
+.footer-content p{
+    font-size: 10px;
+}
+/* footer end */
