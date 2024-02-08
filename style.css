@@ -36,8 +36,17 @@ background-color: black;
     width: 100%;
 }
 /* btn  */
-
-
+.btn a{
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    padding:5px 10px;
+    border-radius: 5px;
+   font-weight: 700;
+}
+.btn a i{
+    margin-left: 5px;
+}
 /* header-container-end */
 
 /* body-card-start */
