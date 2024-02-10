@@ -1,0 +1,101 @@
+/* phone devices */
+@media screen and (max-width:576px){
+    /* header container start */
+    .full-container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .haf-width{
+        width: 100%;
+    }
+    .haf-width-text{
+        margin-top: 50px;
+    }
+    .haf-width-text h1{
+        text-align: center;
+        padding: 10px 30px;
+       
+    }
+    .haf-width-text p{
+        padding: 0 40px;
+       font-size: 20px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        cursor: pointer;
+    }
+    .haf-width-img{
+        width: 70%;
+      margin: 0 auto;
+        /* margin: auto; */
+    }
+    .haf-width-img img{
+        width: 100%;
+
+    }
+    .btn{
+        text-align: center;
+        margin: 40px ;
+    }
+    /* header container end  */
+    /* body container start */
+    .full-width-container{
+        margin-top: 40px;
+        width: 90%;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+    /* body btn  */
+    .body-btn{
+        background-color: white;
+    }
+      .all-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 200px;
+        margin-top:3px;
+        }
+        .all-btn a{
+            border: 1px solid #eee;
+        }
+        /* card */
+        .all-card{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 30px;
+        }
+    /* body container end */
+    footer{
+        margin-top: 40px;
+        width: 100%;
+        height: 50vh;
+        background-color: black;
+        color: white;
+    }
+    footer h1{
+        text-align: center;
+        padding-top: 15px;
+    }
+    footer hr{
+        opacity :0.2;
+        margin-top: 17px;
+       
+    }
+    .footer-content{
+        display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 0;
+   margin-top: 20px;
+
+    }
+.footer-content p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+}
