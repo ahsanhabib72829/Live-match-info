@@ -36,6 +36,7 @@ background-color: black;
 }
 .haf-width-img img{
     width: 100%;
+    
 }
 /* btn  */
 .btn a{
@@ -176,7 +177,13 @@ footer hr{
     margin-top:40px ;
 }
 .footer-content p{
-    font-size: 10px;
+    color: #B9B9B9;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 /* footer end */
 
